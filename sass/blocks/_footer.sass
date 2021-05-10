@@ -1,0 +1,40 @@
+.foot
+  padding-bottom: 120px
+.footer
+  display: flex
+  align-items: start
+  justify-content: space-between
+  &-left
+    display: flex
+    flex-direction: column
+    &__logo
+      margin-bottom: 24px
+    &__text
+      line-height: 32px
+      max-width: 303px
+      margin-bottom: 122px
+    &__copyright
+      font-family: $gilroyMed
+      line-height: 32px
+      opacity: 0.5
+  &-middle, &-right
+    &__text
+      margin-bottom: 24px
+    &__item
+      &:not(:last-child)
+        margin-bottom: 16px
+.footer
+  &-navbar
+    &__text
+      font-size: 24px
+      line-height: 32px
+      color: $accent
+    &__list
+      list-style-type: none
+      padding: 0
+    &__item
+    &__link
+      text-decoration: none
+      color: $light-text
+      font-family: $gilroyMed
+      line-height: 32px

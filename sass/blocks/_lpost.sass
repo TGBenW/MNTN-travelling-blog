@@ -1,0 +1,41 @@
+.lpost
+  display: flex
+  flex-grow: 1 0
+  align-items: center
+  justify-content: space-between
+  position: relative
+  &-number
+    position: absolute
+    top: 38px
+  &-left
+    padding: 141px 114px 140px 150px
+    &__heading
+      margin: 27px 0
+      font-family: $heading
+      font-size: 64px
+      line-height: 77px
+      font-weight: 600
+    &__text
+      width: 100%
+      margin: 0
+      margin-bottom: 27px
+      font-size: 18px
+      line-height: 32px
+    &__subtext
+      color: $accent
+
+  &-right
+    &__image
+      width: 566px
+      height: 720px
+      object-fit: cover
+
+.number
+  font-size: 240px
+  line-height: 240px
+  opacity: 0.1
+.subtext
+  color: $accent
+  &-arrow
+    fill: $accent
+    transform: rotate(270deg)

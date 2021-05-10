@@ -1,0 +1,69 @@
+.title
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding-bottom: 843px
+.social
+  display: flex
+  flex-direction: column
+  justify-content: center
+  &-link
+    text-decoration: none
+    color: inherit
+    &:not(:last-child)
+      margin-bottom: 24px
+    &__follow
+      writing-mode: vertical-rl
+      font-size: 18px
+      line-height: 22px
+    &__insta
+      width: 20px
+      height: 20px
+      fill: $light-text
+    &__twitter
+      width: 21px
+      height: 17px
+      fill: $light-text
+.preheader
+  display: flex
+  align-items: center
+  color: $accent
+  &-line
+    display: inline-block
+    width: 72px
+    height: 2px
+    background-color: $accent
+  &-text
+    margin: 0
+    margin-left: 32px
+    font-family: $gilroyMed
+    letter-spacing: 6px
+    text-transform: uppercase
+.title
+  &-middle
+    &__header
+      max-width: 950px
+      margin: 32px 0
+      font-family: $heading
+      font-size: 88px
+      line-height: 100px
+      text-transform: capitalize
+  &-right
+    display: flex
+    flex-direction: column
+    align-items: flex-end
+    &__text
+      &:not(:last-child)
+        margin-bottom: 40px
+.subtext
+  display: flex
+  align-items: center
+  text-decoration: none
+  color: inherit
+  &-text
+    margin-right: 16px
+    text-transform: lowercase
+  &-arrow
+    width: 16px
+    height: 24px
+    fill: $light-text
