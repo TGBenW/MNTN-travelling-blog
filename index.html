@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/ />
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png" />
+    <link rel=" apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png" />
     <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png" />
     <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png" />
@@ -26,7 +26,11 @@
     <link rel="stylesheet" href="/css/style.css" />
     <title>MNTN-Travelling blog</title>
   </head>
+
   <body>
+    <div class="topsec">
+      <img class="topsec__img" src="../img/bg.png" alt="" />
+    </div>
     <header class="navbar">
       <div class="container">
         <section class="header-section">
@@ -76,25 +80,25 @@
             </a>
           </div>
           <!-- /.social -->
-          <div class="title-middle">
+          <div class="title-middle" id="start">
             <div class="preheader title-middle__top">
               <span class="preheader-line"></span>
               <h3 class="preheader-text title-middle__preheader">A Hiking guide</h3>
             </div>
             <h1 class="title-middle__header">Be prepared for the Mountains and beyond!</h1>
-            <a href="#" class="subtext title-middle__scroll">
-              <span class="subtext-text">Scroll down</span>
-              <svg class="subtext-arrow">
+            <a href="#" class="light subtext title-middle__scroll">
+              <span class="light subtext-text">Scroll down</span>
+              <svg class="light subtext-arrow">
                 <use href="img/icons.svg#arrow"></use>
               </svg>
             </a>
           </div>
           <!-- /.title-middle -->
           <div class="title-right">
-            <span class="title-right__text">Start</span>
-            <span class="title-right__text">01</span>
-            <span class="title-right__text">02</span>
-            <span class="title-right__text">03</span>
+            <a href="#start" class="title-right__text">Start</a>
+            <a href="#post1" class="title-right__text">01</a>
+            <a href="#post2" class="title-right__text">02</a>
+            <a href="#post3" class="title-right__text">03</a>
           </div>
         </div>
         <!-- /.title -->
@@ -102,10 +106,11 @@
       <!-- /.container -->
     </section>
     <!-- /.main -->
+    <!-- /.topsec -->
     <section class="content">
       <div class="container-content">
         <div class="blog">
-          <div class="lpost blog-post">
+          <div class="lpost blog-post" id="post1">
             <span class="number lpost-number">01</span>
             <div class="lpost-left">
               <div class="preheader">
@@ -134,7 +139,7 @@
             <!-- /.lpost-right -->
           </div>
           <!-- /.lpost -->
-          <div class="rpost blog-post">
+          <div class="rpost blog-post" id="post2">
             <div class="rpost-left">
               <img src="img/image02.png" alt="image: Hiking gear" class="rpost-left__image" />
             </div>
@@ -162,7 +167,7 @@
             <!-- /.rpost-right -->
           </div>
           <!-- /.rpost -->
-          <div class="lpost blog-post">
+          <div class="lpost blog-post" id="post3">
             <span class="number lpost-number">03</span>
             <div class="lpost-left">
               <div class="preheader">
@@ -174,7 +179,7 @@
                 To start, print out the hiking guide and map. If it’s raining, throw them in a
                 Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to
                 expect. I like to know what my next landmark is as I hike. For example, I’ll read
-                the guide and know that say, in a mile, I make a right turn at the junction..
+                the guide and know that say, in a mile, I make a right turn at the junction.
               </p>
               <a href="#" class="subtext">
                 <span class="subtext-text">Read more</span>

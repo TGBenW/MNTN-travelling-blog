@@ -2,7 +2,8 @@
   display: flex
   align-items: center
   justify-content: space-between
-  padding-bottom: 843px
+  //padding-bottom: 843px
+  padding-bottom: 40vw
 .social
   display: flex
   flex-direction: column
@@ -52,18 +53,15 @@
     display: flex
     flex-direction: column
     align-items: flex-end
+    padding: 16px 32px 16px 0
+    border-right: 3px solid #ffffff85
     &__text
+      text-decoration: none
+      color: inherit
       &:not(:last-child)
         margin-bottom: 40px
-.subtext
-  display: flex
-  align-items: center
-  text-decoration: none
-  color: inherit
-  &-text
-    margin-right: 16px
-    text-transform: lowercase
-  &-arrow
-    width: 16px
-    height: 24px
-    fill: $light-text
+.light
+  color: $light-text
+.light .subtext-arrow
+  transform: rotate(0deg)
+  fill: $light-text

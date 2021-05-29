@@ -1,9 +1,10 @@
 *
   box-sizing: border-box
+  scroll-behavior: smooth
 
 body
-  background: no-repeat url("../img/bg.png") $bg-dark
-  background-position: 0 -400px
+  background-color: $bg-dark
+  //background-position: 0 -400px
   background-size: contain
   //background-color: $bg-dark
   font-family: 'Gilroy-bold', sans-serif
@@ -11,13 +12,35 @@ body
   font-size: 18px
   line-height: 22px
 
+.topsec
+  position: absolute
+  left: 0
+  top: 0
+  right: 0
+  z-index: -1
+  &__img
+    width: 100vw
 .container
-  max-width: 1760px
+  max-width: 90vw
+  //max-width: 1760px
   margin: auto
   &-content
-    max-width: 1462px
+    //max-width: 1462px
+    max-width: 72vw
     margin: auto
 
 .blog
+  width: 100%
   &-post
     margin-bottom: 200px
+
+.subtext
+  display: flex
+  align-items: center
+  text-decoration: none
+  &-text
+    margin-right: 16px
+    text-transform: lowercase
+  &-arrow
+    width: 16px
+    height: 24px
